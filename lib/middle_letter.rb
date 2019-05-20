@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class Middle_Letter
+class MiddleLetter
 
   def get_middle(character)
     if character.length.odd?

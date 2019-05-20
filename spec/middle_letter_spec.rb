@@ -2,7 +2,7 @@
 
 require 'middle_letter'
 
-describe Middle_Letter do
+describe MiddleLetter do
   subject(:character) { described_class.new }
 
   describe '#get_middle' do
