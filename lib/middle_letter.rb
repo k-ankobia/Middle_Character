@@ -1,9 +1,12 @@
+# frozen_string_literal: true
+
 class Middle_Letter
 
-  def initialize
-  end
-
   def get_middle(character)
-    "es"
+    if character.length.odd?
+      character.split('')[character.length / 2]
+    else
+    end
   end
+  
 end
