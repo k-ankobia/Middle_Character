@@ -45,13 +45,13 @@ After this, I proceeded to write the next set of test for words of even length. 
 
 The code that I wrote after did not pass as the return value included an extra character. This was as a result of how I was accessing the indices of the string. A quick change to range solved the problem. 
 
-#Positives
+### Positives
  
  => Writing a plan of action before attempting to write code helped to structure what I wanted the program to do
  => Using requirements as template for tests
  => Interacting and playing with features tests in irb helped to structure the overall program. 
 
- #Improve 
+ ### Improve 
  => Setup gemfile and short readme at the beginning. 
 
 
